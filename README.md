@@ -1,14 +1,16 @@
-🧠 Claim Summary Automation
+# Claim Summary Automation
 
 A real-world automation tool that extracts key information from insurance claim data, parses structured HTML, and summarizes unstructured notes using GPT. Outputs a clean, standardized format for rapid decision-making and downstream automation.
 
-📌 Features
-	•	🔍 Parses structured and unstructured data from Excel and HTML
-	•	🧠 Uses OpenAI GPT API to summarize lengthy case notes
-	•	🗂 Extracts fields like Claimant Name, Date of Injury, Diagnosis, Treatment, and Doctor Visits
-	•	📤 Outputs to a standardized Excel sheet for downstream processing
-	•	🧪 Clean fallback logic in place if summarization fails
-	•	💾 Designed to reduce manual work and improve processing speed for case coordinators
+---
+
+🚀 Features
+	- Parses structured and unstructured data from Excel and HTML
+	- Uses OpenAI GPT API to summarize lengthy case notes
+	- Extracts fields like Claimant Name, Date of Injury, Diagnosis, Treatment, and Doctor Visits
+	-  Outputs to a standardized Excel sheet for downstream processing
+	- Clean fallback logic in place if summarization fails
+	- Designed to reduce manual work and improve processing speed for case coordinators
 
 🚀 Tech Stack
 	•	Python 3.x
