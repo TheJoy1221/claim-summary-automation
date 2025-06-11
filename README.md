@@ -20,11 +20,11 @@ A real-world automation tool that extracts key information from insurance claim 
 	•	datetime, os, re
 
 🧰 How It Works
-	1.	📥 Load input data from Excel workbook (with multiple sheets)
-	2.	🧾 Parse structured fields (e.g., Claimant Info, Loss Details)
-	3.	🧹 Extract raw HTML notes and clean them with BeautifulSoup
-	4.	🧠 Use GPT API to summarize note content (configurable per sheet)
-	5.	📤 Write results into a clean, readable Excel sheet
+	1.	Load input data from Excel workbook (with multiple sheets)
+	2.	Parse structured fields (e.g., Claimant Info, Loss Details)
+	3.	Extract raw HTML notes and clean them with BeautifulSoup
+	4.	Use GPT API to summarize note content (configurable per sheet)
+	5.	Write results into a clean, readable Excel sheet
 
 ## 📁 Example Output
 
@@ -48,20 +48,20 @@ Make sure your OpenAI key is stored as an environment variable:
 export OPENAI_API_KEY='your-key-here'
 
 📄 Assumptions
-	•	📂 The Excel file currently includes three sheets, each with specific formatting:
+	•	The Excel file currently includes three sheets, each with specific formatting:
 	•	Sheet 1: Claimant Information
 	•	Sheet 2: HTML Notes
 	•	Sheet 3: Additional Data
-	•	🧾 Column headers must remain consistent for successful parsing
-	•	🧠 GPT usage assumes reasonable API limits and cost-awareness
-	•	🔁 Current logic is based on known sheet structure and order
+	•	Column headers must remain consistent for successful parsing
+	•	GPT usage assumes reasonable API limits and cost-awareness
+	•	Current logic is based on known sheet structure and order
 
 🔧 TODO (Roadmap)
-	•	🔍 Add dynamic sheet recognition and flexible column mapping
-	•	🛠 Build CLI tool to process multiple files in batch
-	•	🤖 Integrate form submission via RPA (Selenium or AutoGUI)
-	•	🧠 Extend GPT prompt tuning for better summarization of medical terms
-	•	🖥 Add GUI or Streamlit interface for non-technical users
+	•	Add dynamic sheet recognition and flexible column mapping
+	•	Build CLI tool to process multiple files in batch
+	•	Integrate form submission via RPA (Selenium or AutoGUI)
+	•	Extend GPT prompt tuning for better summarization of medical terms
+	•	Add GUI or Streamlit interface for non-technical users
 
 💬 Questions?
 	•	💌 Want to collaborate or provide feedback? Open an issue or reach out!
